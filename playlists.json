@@ -120,18 +120,6 @@
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/highlights.m3u"
     },
     {
-        "group_title": "Hollywood Movies",
-        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Hollywood_Movies.m3u"
-    },
-    {
-        "group_title": "Bollywood Movies",
-        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Bollywood_Movies.m3u"
-    },
-    {
-        "group_title": "South",
-        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/South.m3u"
-    },
-    {
         "group_title": "🔞18+",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/18.m3u"
     }
