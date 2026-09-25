@@ -8,7 +8,7 @@ from urllib.parse import quote
 PLAYLIST_URLS = [
     "https://raw.githubusercontent.com/Prtstream820894/Prmovies/refs/heads/main/playlist.m3u",
     "https://divine-moon-058f.poonamchouhan076.workers.dev/",
-    "https://raw.githubusercontent.com/Prtstream820894/GitHub/refs/heads/main/mx.m3u",
+    "",
     "https://raw.githubusercontent.com/Prtstream820894/Bazeradult/refs/heads/main/playlist.m3u"
 ]
 
