@@ -4,11 +4,12 @@ import json
 import urllib.request
 from urllib.parse import quote
 
-# Configuration (Ab yaha saari playlists ki list di hai)
+# Configuration (Ab isme saari chaaron playlists ki list hai)
 PLAYLIST_URLS = [
     "https://raw.githubusercontent.com/Prtstream820894/Prmovies/refs/heads/main/playlist.m3u",
     "https://divine-moon-058f.poonamchouhan076.workers.dev/",
-    "https://raw.githubusercontent.com/Prtstream820894/GitHub/refs/heads/main/mx.m3u"
+    "https://raw.githubusercontent.com/Prtstream820894/GitHub/refs/heads/main/mx.m3u",
+    "https://raw.githubusercontent.com/Prtstream820894/Bazeradult/refs/heads/main/playlist.m3u"
 ]
 
 OUTPUT_DIR = "playlists"
