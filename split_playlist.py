@@ -4,8 +4,13 @@ import json
 import urllib.request
 from urllib.parse import quote
 
-# Configuration
-MASTER_PLAYLIST_URL = "https://raw.githubusercontent.com/Prtstream820894/Prmovies/refs/heads/main/playlist.m3u"
+# Configuration (Ab yaha saari playlists ki list di hai)
+PLAYLIST_URLS = [
+    "https://raw.githubusercontent.com/Prtstream820894/Prmovies/refs/heads/main/playlist.m3u",
+    "https://divine-moon-058f.poonamchouhan076.workers.dev/",
+    "https://raw.githubusercontent.com/Prtstream820894/GitHub/refs/heads/main/mx.m3u"
+]
+
 OUTPUT_DIR = "playlists"
 JSON_OUTPUT = "playlists.json"
 
@@ -17,26 +22,38 @@ def sanitize_filename(name):
     return re.sub(r'[^a-zA-Z0-9_-]', '_', name).strip('_')
 
 def process_playlist():
-    print("Master playlist download ho rahi hai...")
-    try:
-        req = urllib.request.Request(
-            MASTER_PLAYLIST_URL,
-            headers={'User-Agent': 'Mozilla/5.0'}
-        )
-        with urllib.request.urlopen(req) as response:
-            content = response.read().decode('utf-8', errors='ignore')
-    except Exception as e:
-        print(f"Error downloading playlist: {e}")
+    combined_content = ""
+    
+    # Saari playlists ko ek-ek karke download karke combine karenge
+    for url in PLAYLIST_URLS:
+        print(f"Downloading: {url}")
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={'User-Agent': 'Mozilla/5.0'}
+            )
+            with urllib.request.urlopen(req) as response:
+                content = response.read().decode('utf-8', errors='ignore')
+                combined_content += "\n" + content
+        except Exception as e:
+            print(f"Error downloading {url}: {e}")
+
+    if not combined_content.strip():
+        print("Koi bhi playlist data download nahi ho paya!")
         return
 
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
 
-    lines = content.splitlines()
+    lines = combined_content.splitlines()
     groups = {}
     
     current_header = ""
     for line in lines:
+        line = line.strip()
+        if not line or line.startswith("#EXTM3U"):
+            continue
+            
         if line.startswith("#EXTINF"):
             current_header = line
             match = re.search(r'group-title="(.*?)"', line, re.IGNORECASE)
@@ -69,7 +86,7 @@ def process_playlist():
     with open(JSON_OUTPUT, "w", encoding="utf-8") as json_f:
         json.dump(json_data, json_f, indent=4, ensure_ascii=False)
     
-    print("Playlist splitting aur JSON generation successfully complete ho gaya!")
+    print("Saari playlists combine, split aur JSON generation successfully complete ho gaya!")
 
 if __name__ == "__main__":
     process_playlist()
