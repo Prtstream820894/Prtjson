@@ -1,14 +1,14 @@
 import os
 import re
 import json
+import time
 import urllib.request
 from urllib.parse import quote
 
-# Configuration (Ab isme saari chaaron playlists ki list hai)
+# Configuration
 PLAYLIST_URLS = [
     "https://raw.githubusercontent.com/Prtstream820894/Prmovies/refs/heads/main/playlist.m3u",
     "https://divine-moon-058f.poonamchouhan076.workers.dev/",
-    "",
     "https://raw.githubusercontent.com/Prtstream820894/Bazeradult/refs/heads/main/playlist.m3u"
 ]
 
@@ -24,13 +24,21 @@ def sanitize_filename(name):
 
 def process_playlist():
     combined_content = ""
+    # Timestamp generate kar rahe hain taaki GitHub cache bypass ho aur naya data mile
+    timestamp = int(time.time())
     
-    # Saari playlists ko ek-ek karke download karke combine karenge
     for url in PLAYLIST_URLS:
+        if not url.strip():
+            continue
+            
+        # URL ke aage timestamp jodna taaki hamesha fresh data download ho
+        separator = "&" if "?" in url else "?"
+        cache_busted_url = f"{url}{separator}t={timestamp}"
+        
         print(f"Downloading: {url}")
         try:
             req = urllib.request.Request(
-                url,
+                cache_busted_url,
                 headers={'User-Agent': 'Mozilla/5.0'}
             )
             with urllib.request.urlopen(req) as response:
