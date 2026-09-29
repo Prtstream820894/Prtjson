@@ -6,8 +6,8 @@ on:
       - main
   workflow_dispatch:
   # Agar chahe toh har kuch ghante mein automatically update ke liye schedule bhi laga sakta hai
-  # schedule:
-  #   - cron: '0 */6 * * *'
+   schedule:
+     - cron: '0 */6 * * *'
 
 jobs:
   build:
