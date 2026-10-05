@@ -84,6 +84,10 @@
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/War_Movies.m3u"
     },
     {
+        "group_title": "✨ Marathi Movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Marathi_Movies.m3u"
+    },
+    {
         "group_title": "💥 Netflix Series 💥",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Netflix_Series.m3u"
     },
