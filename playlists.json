@@ -52,6 +52,10 @@
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Mystery_Movies.m3u"
     },
     {
+        "group_title": "highlights",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/highlights.m3u"
+    },
+    {
         "group_title": "🫦adult",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/adult.m3u"
     }
