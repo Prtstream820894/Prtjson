@@ -52,6 +52,74 @@
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Mystery_Movies.m3u"
     },
     {
+        "group_title": "✨ Family Movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Family_Movies.m3u"
+    },
+    {
+        "group_title": "✨ Fantasy Movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Fantasy_Movies.m3u"
+    },
+    {
+        "group_title": "✨ Horror Movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Horror_Movies.m3u"
+    },
+    {
+        "group_title": "✨ History Movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/History_Movies.m3u"
+    },
+    {
+        "group_title": "✨ Romantic Movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Romantic_Movies.m3u"
+    },
+    {
+        "group_title": "✨ Science Fiction Movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Science_Fiction_Movies.m3u"
+    },
+    {
+        "group_title": "✨ Thriller Movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Thriller_Movies.m3u"
+    },
+    {
+        "group_title": "✨ War Movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/War_Movies.m3u"
+    },
+    {
+        "group_title": "✨ Marathi Movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Marathi_Movies.m3u"
+    },
+    {
+        "group_title": "💥 Netflix Series 💥",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Netflix_Series.m3u"
+    },
+    {
+        "group_title": "💥 Hotstar Series 💥",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Hotstar_Series.m3u"
+    },
+    {
+        "group_title": "💥 Prime Series 💥",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Prime_Series.m3u"
+    },
+    {
+        "group_title": "💥 Zee5 Series 💥",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Zee5_Series.m3u"
+    },
+    {
+        "group_title": "💥 Voot Series 💥",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Voot_Series.m3u"
+    },
+    {
+        "group_title": "💥 SonyLiv Series 💥",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/SonyLiv_Series.m3u"
+    },
+    {
+        "group_title": "💥 Viu Series 💥",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Viu_Series.m3u"
+    },
+    {
+        "group_title": "💥 MX Player Series 💥",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/MX_Player_Series.m3u"
+    },
+    {
         "group_title": "highlights",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/highlights.m3u"
     },
