@@ -9,7 +9,8 @@ from urllib.parse import quote
 PLAYLIST_URLS = [
     "https://raw.githubusercontent.com/Prtstream820894/Prmovies/refs/heads/main/playlist.m3u",
     "https://divine-moon-058f.poonamchouhan076.workers.dev/",
-    "https://raw.githubusercontent.com/Prtstream820894/Bazeradult/refs/heads/main/playlist.m3u"
+    "https://raw.githubusercontent.com/Prtstream820894/Bazeradult/refs/heads/main/playlist.m3u",
+    "https://raw.githubusercontent.com/poonamchouhan828/xnxx/refs/heads/main/playlist.m3u"  # Nayi playlist add kar di hai
 ]
 
 OUTPUT_DIR = "playlists"
