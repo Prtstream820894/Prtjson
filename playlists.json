@@ -126,5 +126,9 @@
     {
         "group_title": "🫦adult",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/adult.m3u"
+    },
+    {
+        "group_title": "🎬 NEW 4K",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/NEW_4K.m3u"
     }
 ]
