@@ -20,12 +20,20 @@
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Crime_movies.m3u"
     },
     {
+        "group_title": "✨ Drama movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Drama_movies.m3u"
+    },
+    {
         "group_title": "✨ mystery movies ✨",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/mystery_movies.m3u"
     },
     {
         "group_title": "✨ War movies ✨",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/War_movies.m3u"
+    },
+    {
+        "group_title": "✨ Family movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Family_movies.m3u"
     },
     {
         "group_title": "✨ Fantasy movies ✨",
