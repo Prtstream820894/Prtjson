@@ -52,20 +52,12 @@
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Romantic_movies.m3u"
     },
     {
-        "group_title": "✨ Adventure movies ✨",
-        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Adventure_movies.m3u"
-    },
-    {
         "group_title": "✨ Thriller movies ✨",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Thriller_movies.m3u"
     },
     {
         "group_title": "✨ Science fiction movies ✨",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Science_fiction_movies.m3u"
-    },
-    {
-        "group_title": "✨ Hollywood movies ✨",
-        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Hollywood_movies.m3u"
     },
     {
         "group_title": "✨ Web Series ✨",
