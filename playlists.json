@@ -8,12 +8,24 @@
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Bollywood_movies.m3u"
     },
     {
+        "group_title": "✨ Action movies✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Action_movies.m3u"
+    },
+    {
         "group_title": "✨ Comedy movies ✨",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Comedy_movies.m3u"
     },
     {
+        "group_title": "✨ Crime movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Crime_movies.m3u"
+    },
+    {
         "group_title": "✨ Drama movies ✨",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Drama_movies.m3u"
+    },
+    {
+        "group_title": "✨ mystery movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/mystery_movies.m3u"
     },
     {
         "group_title": "✨ War movies ✨",
@@ -44,8 +56,16 @@
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Adventure_movies.m3u"
     },
     {
+        "group_title": "✨ Thriller movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Thriller_movies.m3u"
+    },
+    {
         "group_title": "✨ Science fiction movies ✨",
         "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Science_fiction_movies.m3u"
+    },
+    {
+        "group_title": "✨ Hollywood movies ✨",
+        "playlist_url": "https://raw.githubusercontent.com/Prtstream820894/Prtjson/main/playlists/Hollywood_movies.m3u"
     },
     {
         "group_title": "✨ Web Series ✨",
